@@ -15,16 +15,22 @@
         }
     },
     "require": {
-        "pimple/pimple": "3.0.*@dev",
-        "symfony/config": "2.6.*@dev",
-        "symfony/yaml": "2.6.*@dev"
+        "pimple/pimple": "~3.0.",
+        "symfony/config": "~2.3",
+        "symfony/yaml": "~2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1",
+        "phpunit/php-code-coverage": "~2.0",
+        "phpunit/phpunit-mock-objects": "~2.3",
+        "sebastian/global-state": "~1.0@dev"
     },
     "config": {
         "bin-dir": "bin/"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-sf23": "1.0-dev"
         }
     }
 }
