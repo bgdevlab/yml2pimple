@@ -30,7 +30,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-sf23": "1.0-dev"
+            "dev-sf23": "1.0.x-dev"
         }
     }
 }
